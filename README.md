@@ -1,2 +1,2 @@
 # AKAD
-Akad Creative Digital Agency_
+Akad Creative Digital Agency
