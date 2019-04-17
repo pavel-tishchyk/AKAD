@@ -53,7 +53,7 @@ function showCurrentItem() {
 
         case '5': portfolioItemClass = 'type-advertising';
         break;
-        
+
         case '6': portfolioItemClass = 'type-fashion';
         break;
     }
@@ -68,4 +68,20 @@ function showCurrentItem() {
             portfolioItem[i].classList += ' portfolio-active';
         }
     }
+}
+
+newslatterInput = document.getElementsByClassName('form-input');
+inputText = document.getElementsByClassName('input-text');
+
+newslatterInput[0].addEventListener('focus', inputTextFocus);
+newslatterInput[0].addEventListener('blur', inputTextBlur);
+
+function inputTextBlur() {
+    inputText[0].classList.remove('input-active');
+}   
+
+function inputTextFocus() {
+        
+        inputText[0].classList += ' input-active';
+
 }
