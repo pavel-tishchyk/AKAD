@@ -81,7 +81,5 @@ function inputTextBlur() {
 }   
 
 function inputTextFocus() {
-        
-        inputText[0].classList += ' input-active';
-
+    inputText[0].classList += ' input-active';
 }
