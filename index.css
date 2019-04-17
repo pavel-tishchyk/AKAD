@@ -23,6 +23,15 @@ a {
     color: #60606e;
 }
 
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 .header {
     position: absolute;
     width: 100%;
@@ -64,4 +73,42 @@ a {
     font-size: 12px;
     font-weight: 700;
     line-height: 100px;
+}
+
+.background {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 850px;
+    background: url(assets/images/background-image.jpg) no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide-small-text {
+    padding: 7px 12px;
+    color: #60606e;
+    background-color: #7beec7;
+}
+
+.slide-title {
+    padding: 10px 40px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    color: #60606e;
+    border: solid 10px #60606e;
+}
+
+.slide-text {
+    width: 50%;
 }
