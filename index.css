@@ -87,12 +87,20 @@ a {
     z-index: -1;
 }
 
+.slides {
+    width: 100%;
+}
+
 .slide {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.slide-active {
+    display: flex;
 }
 
 .slide-small-text {
