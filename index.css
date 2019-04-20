@@ -44,7 +44,6 @@ p {
 
 .section-title {
     position: relative;
-    width: 50%;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -68,6 +67,8 @@ p {
     width: 50%;
     margin: 0 auto 100px;
     text-align: center;
+    line-height: 24px;
+    color: #60606e;
 }
 
 .button {
@@ -98,6 +99,7 @@ p {
 .header {
     position: absolute;
     width: 100%;
+    z-index: 1;
 }
 
 .container {
@@ -148,6 +150,17 @@ p {
     background: url(assets/images/background-image.jpg) no-repeat;
     background-size: cover;
     z-index: -1;
+}
+
+.background-2 {
+    background: url(assets/images/background-2-image.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .slides {
@@ -496,3 +509,75 @@ p {
 .social-icon:last-child {
     margin-right: 0px;
 }
+
+/*about*/
+
+.backround-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-title {
+    font-size: 36px;
+}
+
+.small-title {
+    font-size: 14px;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.section-subtitle {
+    color: #60606e;
+}
+
+.column-text {
+    text-align: start;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-icon {
+    background-color: #7beec7;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
