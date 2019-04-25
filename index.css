@@ -689,3 +689,127 @@ p {
 .client-image {
     width: 85%;
 }
+
+/*services*/
+
+.services-row {
+    align-items: flex-start;
+    width: 100%;
+}
+
+.section-list {
+    list-style: none;
+    width: 50%;
+}
+
+.services-section-text {
+    margin-bottom: 30px;
+}
+
+.list-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.list-item:before {
+    font-family: "Ionicons";
+    content: '\f374';
+    position: absolute;
+    left: 0;
+    top: 15%;
+    color: #7beec7;
+}
+
+.benefits-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.benefits-icon {
+    position: relative;
+    font-size: 60px;
+}
+
+.benefits-icon > i {
+    font-size: 60px;
+}
+
+.benefits-icon:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 55%;
+    z-index: -1;
+    height: 20px;
+    width: 40px;
+    background-color: #7beec7;
+}
+
+.benefits-title {
+    font-size: 18px;
+}
+
+.benefits-text {
+    width: 75%;
+}
+
+.plan-column {
+    position: relative;
+    flex-grow: 0.3;
+    padding:30px;
+    border-top: solid 5px #7beec7;
+    transition: all .2s ease-in-out;
+}
+
+.plan-column:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 50px rgba(0,0,0,.2);
+}
+
+.plan-column::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 10px solid #7beec7;
+}
+
+.plan-title {
+    font-size: 30px;
+}
+
+.plan-price {
+    background-color: #7beec7;
+    padding: 5px 20px;
+    color: white;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.plan-list {
+    list-style: none;
+    margin: 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
