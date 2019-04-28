@@ -846,6 +846,23 @@ p {
     margin: 50px 0px;
 }
 
+.project-slide {
+    display: none;
+}
+
+.project-slide-active {
+    display: block;
+}
+
+.project-image {
+    padding: 15px;
+    width: 100%;
+}
+
+.project-info {
+    align-self: flex-start;
+}
+
 .project-members {
     width: 80%;
 }
