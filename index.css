@@ -846,17 +846,31 @@ p {
     margin: 50px 0px;
 }
 
+.project-members {
+    width: 80%;
+}
 
+.project-members > ul {
+    width: 100%;
+}
 
+.share-button {
+    margin-top: 30px;
+}
 
+.project-pagination {
+    margin: 50px 0px;
+}
 
+.project-button {
+    text-align: center;
+    width: 50px;
+}
 
+.project-icon {
+    font-size: 25px;
+}
 
-
-
-
-
-
-
-
-
+.project-title {
+    margin-bottom: 50px;
+}
