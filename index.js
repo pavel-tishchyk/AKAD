@@ -70,8 +70,8 @@ function showCurrentItem() {
     }
 }
 
-newslatterInput = document.getElementsByClassName('form-input');
-inputText = document.getElementsByClassName('input-text');
+var newslatterInput = document.getElementsByClassName('form-input');
+var inputText = document.getElementsByClassName('input-text');
 
 newslatterInput[0].addEventListener('focus', inputTextFocus);
 newslatterInput[0].addEventListener('blur', inputTextBlur);
@@ -84,3 +84,15 @@ function inputTextFocus() {
     inputText[0].classList += ' input-active';
 }
 
+var widgetNav = document.getElementsByClassName('widget-nav-link');
+var navBottomLine = document.getElementsByClassName('bottom-line');
+var currentNav = 0;
+console.log(widgetNav);
+for (var i = 0; i < widgetNav.length; i++) {
+    widgetNav[i].addEventListener('click', currentWidgetNav)
+}
+
+function currentWidgetNav() {
+    
+    
+}
