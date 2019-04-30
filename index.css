@@ -1059,6 +1059,22 @@ nav {
     padding: 0 10px 20px;
     color: #999999;
     display: inline-block;
+    background-color: transparent;
+    border: none;
     transition: all .2s ease-in-out;
     position: relative;
+}
+
+.current-nav-link {
+    color: #60606e;
+}
+
+.bottom-line {
+    width: 82px;
+    height: 2px;
+    background-color: #7beec7;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: all .2s ease-in-out;
 }

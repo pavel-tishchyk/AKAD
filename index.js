@@ -87,12 +87,22 @@ function inputTextFocus() {
 var widgetNav = document.getElementsByClassName('widget-nav-link');
 var navBottomLine = document.getElementsByClassName('bottom-line');
 var currentNav = 0;
-console.log(widgetNav);
+var lineLeft = 0;
+
 for (var i = 0; i < widgetNav.length; i++) {
     widgetNav[i].addEventListener('click', currentWidgetNav)
 }
-
+    
 function currentWidgetNav() {
-    
-    
+    currentNav = this.value;
+    for (var i = 0; i < widgetNav.length; i++) {
+        widgetNav[i].className = 'widget-nav-link';
+    }
+
+    widgetNav[currentNav].className = 'widget-nav-link current-nav-link';
+    lineLeft =  widgetNav[currentNav].offsetLeft;
+
+    for (var i = 0; i < navBottomLine.length; i++){
+        navBottomLine[i].style.left = lineLeft + "px";        
+    }
 }
