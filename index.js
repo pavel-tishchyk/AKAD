@@ -86,6 +86,7 @@ function inputTextFocus() {
 
 var widgetNav = document.getElementsByClassName('widget-nav-link');
 var navBottomLine = document.getElementsByClassName('bottom-line');
+var widgetPosts = document.getElementsByClassName('widget-posts');
 var currentNav = 0;
 var lineLeft = 0;
 
@@ -97,9 +98,11 @@ function currentWidgetNav() {
     currentNav = this.value;
     for (var i = 0; i < widgetNav.length; i++) {
         widgetNav[i].className = 'widget-nav-link';
+        widgetPosts[i].className = 'widget-posts';
     }
 
     widgetNav[currentNav].className = 'widget-nav-link current-nav-link';
+    widgetPosts[currentNav].className = 'widget-posts widget-posts-active';
     lineLeft =  widgetNav[currentNav].offsetLeft;
 
     for (var i = 0; i < navBottomLine.length; i++){
