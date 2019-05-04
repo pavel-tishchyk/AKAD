@@ -1154,3 +1154,18 @@ nav {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.instagram-item {
+    display: flex;
+    margin: 0px 15px 15px 0px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.instagram-link {
+    display: flex;
+}
+
+.widget-image {
+    width: 100%;
+}
